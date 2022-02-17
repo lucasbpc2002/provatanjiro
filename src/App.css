@@ -1,0 +1,93 @@
+.calendario{
+    margin-left: 30px;
+}
+
+#calen{
+    background-color: rgb(120, 190, 247);
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+ul{
+    display: flex ;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.titulo{
+    align-items: center;
+}
+button{
+    background-color: rgb(32, 167, 221);
+    color: white;
+    border-color: white;
+}
+
+@media screen and (min-width:100px) and (max-width: 800px) {
+    .flex{
+        text-align: center;
+    }
+
+    .geral{
+        background-image: url("./img/f.png"); 
+    }
+
+    .topo{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color:rgb(122, 135, 145);
+        font-size: 13;
+        text-align: center;
+    }
+
+    nav{
+        background-color: rgb(120, 190, 247);
+    }
+    .h{
+        color:rgb(18, 18, 131);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .font{
+        color:rgb(255, 255, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    footer{
+        background-color: rgb(69, 170, 253);
+    }
+}
+
+@media screen and (min-width:800px) and (max-width: 1600px) {
+    .flex{
+        display: flex;
+        background-color:rgb(69, 170, 253);
+    }
+
+    nav{
+        background-color:rgb(69, 170, 253);
+    }
+
+    .div1{
+        background-color:rgb(69, 170, 253);
+
+    }
+
+    .topo{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color:rgb(122, 135, 145);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .font{
+        color:rgb(18, 18, 131);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .h{
+        color:rgb(18, 18, 131);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    footer{
+        background-color: rgb(69, 170, 253);
+    }
+}
